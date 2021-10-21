@@ -1,0 +1,22 @@
+.contenedor {
+    color: rgba(242, 0, 46, 0.5);
+    /* con ultimos digito ajusto la transparencia entre 0 y 1 */
+    /*color: #f00;*/
+    /*color: brown;*/
+    /*color: rgb(255, 0, 0);*/
+    /* son las maneras de definir los colores  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: hsla(255, 50%, 50%, 0.5);
+    /* h= tomo 0=rojo 120=verde 240=azul es la rueda de colores
+	   s=saturacion del color l= 0% muy gris 100%=muy blanco 
+	   a=transparencia entre 0 y 1 */
+    padding: 10px;
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 50px;
+}

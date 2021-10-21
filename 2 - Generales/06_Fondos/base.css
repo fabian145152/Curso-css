@@ -1,0 +1,22 @@
+.contenedor {
+    background: url(bulb.png) 0% 100% no-repeat, url(tower.png) 90% 50% no-repeat, url(cloud.png) no-repeat, linear-gradient(to right, #A7F200, #00F2C4);
+    /* todo funciona como capas el primero que agrego en el de adelante
+	el ultimo es el de atras.
+	si no le pongo el atributo no-repeat me repite la imagen muchas veces
+	el primer % es movimiento vertical el segundo es horizontal es positivo y negativo todo a partir del centro de la pantalla */
+    /*background-size: cover;*/
+    /*contain=todo se acomoda
+	50$ 50% es horizontal y vertical
+	*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 8px solid #ccc;
+    padding: 40px;
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 50px;
+}
